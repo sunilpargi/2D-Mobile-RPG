@@ -145,6 +145,25 @@ MonoBehaviour:
   lastMove: {x: 0, y: 0}
   attackingTime: 0.15
   startPoint: 
+--- !u!1 &409179314 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 91524279206755819, guid: d450cf28a8427bf459d3b9e5cf4566d6, type: 3}
+  m_PrefabInstance: {fileID: 823650354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &409179315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409179314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad79840e04bb7f748a73d2b3926a9a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: MainScene
+  exitPoint: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,6 +175,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -171,6 +191,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5788d6e6d64dc0d4194b5975a8633dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followTarget: {fileID: 163714773}
+  moveSpeed: 100
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
