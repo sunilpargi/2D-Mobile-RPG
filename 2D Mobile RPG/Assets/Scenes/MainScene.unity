@@ -178,8 +178,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3596351844632525303, guid: 3b270b6d83baa0f45abbba41888ab7c2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3b270b6d83baa0f45abbba41888ab7c2, type: 3}
+--- !u!1 &556700124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3596351844632525297, guid: 3b270b6d83baa0f45abbba41888ab7c2, type: 3}
+  m_PrefabInstance: {fileID: 556700123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &556700125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556700124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a65d6f6f2ebb6498cb39d9a9e2940c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDirection: {x: 0, y: 0}
+  point: Grave Out
 --- !u!1001 &594877642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -237,6 +257,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebea83299bf0eae4c8ec951d2085f6de, type: 3}
+--- !u!1 &917633369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7697377817025493263, guid: 49049c08bbb50264dbdf78d5517b51f9, type: 3}
+  m_PrefabInstance: {fileID: 1871218808}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &917633370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917633369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad79840e04bb7f748a73d2b3926a9a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: Forest
+  exitPoint: 
 --- !u!1001 &953134631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -292,8 +331,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2631719954835324201, guid: 439ec729183db1e42b0290fc4c5ee145, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 439ec729183db1e42b0290fc4c5ee145, type: 3}
+--- !u!1 &953134632 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2631719954835324204, guid: 439ec729183db1e42b0290fc4c5ee145, type: 3}
+  m_PrefabInstance: {fileID: 953134631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &953134633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953134632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad79840e04bb7f748a73d2b3926a9a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: Grave
+  exitPoint: 
 --- !u!1001 &1097946445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -349,8 +408,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: FromShed
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8883618206256030311, guid: 21239dc9094162c48a7ab45e61bf9ea5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21239dc9094162c48a7ab45e61bf9ea5, type: 3}
+--- !u!1 &1097946446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8883618206256030310, guid: 21239dc9094162c48a7ab45e61bf9ea5, type: 3}
+  m_PrefabInstance: {fileID: 1097946445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1097946447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097946446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a65d6f6f2ebb6498cb39d9a9e2940c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDirection: {x: 0, y: 0}
+  point: Shed Out
 --- !u!1001 &1444102660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -463,8 +542,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6885767690703932329, guid: c7c231feb8d320149bb9852189b4d8cb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c7c231feb8d320149bb9852189b4d8cb, type: 3}
+--- !u!1 &1499173706 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6885767690703932328, guid: c7c231feb8d320149bb9852189b4d8cb, type: 3}
+  m_PrefabInstance: {fileID: 1499173705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1499173707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499173706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad79840e04bb7f748a73d2b3926a9a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: Shed
+  exitPoint: 
 --- !u!1001 &1871218808
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -520,7 +619,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToForrest
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7697377817025493256, guid: 49049c08bbb50264dbdf78d5517b51f9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 49049c08bbb50264dbdf78d5517b51f9, type: 3}
 --- !u!1001 &1942779607
 PrefabInstance:
@@ -580,3 +680,67 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3355569243424707307, guid: 4d6f03fb466175948b29b81b60f2225d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4d6f03fb466175948b29b81b60f2225d, type: 3}
+--- !u!1 &1942779608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3355569243424707308, guid: 4d6f03fb466175948b29b81b60f2225d, type: 3}
+  m_PrefabInstance: {fileID: 1942779607}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1942779609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942779608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a65d6f6f2ebb6498cb39d9a9e2940c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDirection: {x: 0, y: 0}
+  point: Forrest Out
+--- !u!1 &2080939094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080939096}
+  - component: {fileID: 2080939095}
+  m_Layer: 0
+  m_Name: Destination
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2080939095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080939094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a65d6f6f2ebb6498cb39d9a9e2940c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDirection: {x: 0, y: 0}
+  point: 
+--- !u!4 &2080939096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080939094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.96, y: -45.45, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

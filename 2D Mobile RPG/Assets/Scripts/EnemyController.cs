@@ -39,7 +39,8 @@ public class EnemyController : MonoBehaviour
                 moving = false;
                 timeBetweenMoveCounter = Random.Range(timeBetweenMove * 0.75f, timeBetweenMove * 1.25f);
             }
-        } else
+        } 
+        else
         {
             timeBetweenMoveCounter -= Time.deltaTime;
             myBody.velocity = Vector2.zero;
